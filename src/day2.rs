@@ -34,7 +34,7 @@ fn run(register: &[usize], noun: Option<usize>, verb: Option<usize>) -> Vec<usiz
 
   let mut position = 0usize;
   loop {
-    if position >= new_register.len() - 3{
+    if position >= new_register.len() - 3 {
       break;
     }
     let op: OpCode = new_register[position].into();
